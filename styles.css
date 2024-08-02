@@ -1,85 +1,67 @@
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
+body{
+	background-color: #68fc99;
 }
-
-
-.product-container {
-    display: flex;
-    justify-content: space-between;
+.heading{
+	font-size: 25px;
+	margin-left: 13rem;
 }
-
-
-.product-image {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.small-poster{
+	position: absolute;
+	left: -40px;
+	background-color: white;
+	box-shadow: 0 5px 8px rgba(0,0,0, 0.2);
+	height: 350px;
+	width: 250px;
+	border-radius: 10px;
+	margin-top: 10px;
 }
-
-.photo-main {
-    width: 200px;
-    height: 200px;
+.amount{
+	font-size: 40px;
+	color: red;
 }
-
-.photo-album {
-    display: flex;
-    list-style: none;
-    padding: 0;
+.variant{
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+	margin-top: 1.5rem
 }
-
-.photo-album li {
-    margin: 5px;
+.variant ul{
+	list-style-type: none;
+	display: flex
 }
-
-.photo-album img {
-    width: 50px;
-    height: 50px;
+.variant ul img{
+	width: 20px;
+	height: 20px;
+	object-fit: cover;
+	box-shadow: 0 5px 8px rgba(0,0,0, 0.2);
 }
-
-/* Product details */
-.product-details {
-    flex: 1;
-    padding: 20px;
+.poster{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	padding: 20px;
+	margin-left: 5.5rem;
+	border-radius: 5px;
 }
-
-.price {
-    font-weight: bold;
-    font-size: 18px;
-	color:red;
+.add-to-cart{
+	display: inline-block;
+	padding: 10px;
+	font-size: 18px;
+	background-color: red;
+	border-radius: 8px;
+	cursor: pointer;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
-
-.select-color {
-    margin-top: 20px;
+.right{
+	margin-left: 13rem;	
 }
-
-.variant {
-    display: flex;
-    list-style: none;
-    padding: 0;
+.apple-left{
+	width: 250px;	
+	height: 280px
 }
-
-.variant li {
-    margin-right: 10px;
-}
-
-.benefits {
-    margin-top: 20px;
-}
-
-.add-to-cart {
-    background-color: red;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 20px;
-}
-.description {
-    margin-top: 20px;
-    font-weight: bold;
+.apple{	
+	background: radial-gradient(#fff, #9af005);
 }
