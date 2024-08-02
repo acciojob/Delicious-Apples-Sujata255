@@ -1,17 +1,17 @@
-/* Basic styling */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
 }
 
-/* Product container */
+
 .product-container {
     display: flex;
     justify-content: space-between;
 }
 
-/* Product image */
+
 .product-image {
     flex: 1;
     display: flex;
@@ -78,4 +78,8 @@ body {
     display: inline-block;
     font-size: 16px;
     margin-top: 20px;
+}
+.description {
+    margin-top: 20px;
+    font-weight: bold;
 }
